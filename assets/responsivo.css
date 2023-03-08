@@ -1,0 +1,10 @@
+@media screen and (max-width: 1199) {
+    .principal {
+        flex-direction: column;
+        background-color: red;
+    }
+    .col-md-6 {
+        display: flex;
+        flex-direction: column;
+    }
+}
