@@ -10,10 +10,10 @@
 // $mail->Host = 'smtp.gmail.com';
 // $mail->Port = 587;
 // $mail->SMTPAuth = true;
-// $mail->Username = 'igormarquesdeazevedo11@gmail.com';
-// $mail->Password = 'aspire987Igor86531492';
+// $mail->Username = '';
+// $mail->Password = '';
 
-// $mail->setFrom('igormarquesdeazevedo11@gmail.com', 'TESTANDO');
+// $mail->setFrom('', 'TESTANDO');
 // $mail->addAddress('lodolam528@galcake.com');
 // $mail->Subject = "TESTANDO";
 
