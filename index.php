@@ -1,13 +1,12 @@
 <?php
+session_start();
+
 include('./conexao.php');
 include('./funcoes.php');
 
 
-$erro = false;
+validacoes();
 
-if (isset($_POST['confirmar'])) {
-    validacoes();
-}
 ?>
 
 <!DOCTYPE html>
@@ -28,18 +27,37 @@ if (isset($_POST['confirmar'])) {
 </head>
 
 <body>
+    <div class="header">
+        <img src="./assets/imgs/company-yellow.jpg" alt="" srcset="">
+        <h1>FEPAC</h1>
+    </div>
+
     <div class="container">
         <form action="" method="post">
+            <?php if ($_SESSION['msg']) : ?>
+                <div class="alert alert-danger mt-2" role="alert">
+                    <?php echo $_SESSION['msg'] ?>
+                </div>
+            <?php endif; ?>
+
+            <?php if ($_SESSION['success']) :
+                ?>
+                <div class="alert alert-success mt-2" role="alert">
+                    <?php echo $_SESSION['success']; ?>
+                </div>
+            <?php endif; ?>
             <div class="form mt-2">
                 <form class="row">
                     <div class="principal row">
+
+
                         <div class="primarios row">
                             <div class="cabeca mt-4 mb-5">
                                 <h2>FICHA DE INSCRIÇÂO 21° FEPAC 2023</h2>
                             </div>
 
                             <div class="col-md-6">
-                                <label for="coro" class="form-label">Coro <span style="color: red;"> *</span></label>
+                                <label for="coro" class="form-label">CORO <span style="color: red;"> *</span></label>
                                 <input value="<?php if (isset($_POST['coro'])) echo $_POST['coro']; ?>" name="coro" placeholder="ex: coral clarear" type="text" class="form-control" id="coro">
                             </div>
 
@@ -55,7 +73,7 @@ if (isset($_POST['confirmar'])) {
                             </div>
 
                             <div class="col-md-6">
-                                <label for="cidade" class="form-label">Cidade <span style="color: red;"> *</span></label>
+                                <label for="cidade" class="form-label">CIDADE <span style="color: red;"> *</span></label>
                                 <input value="<?php if (isset($_POST['cidade'])) echo $_POST['cidade']; ?>" name="cidade" id="cidade" placeholder="ex: João Pessoa" type="text" class="form-control">
                             </div>
 
@@ -80,11 +98,11 @@ if (isset($_POST['confirmar'])) {
                                 <input value="<?php if (isset($_POST['maestro'])) echo $_POST['maestro']; ?>" placeholder="ex: Maestro Lucas" name="maestro" type="text" class="form-control" id="maestro">
                             </div>
                             <div class="col-md-2">
-                                <label for="telefone" class="form-label">FONE/WhatsApp <span style="color: red;"> *</span></label>
+                                <label for="telefone" class="form-label">FONE/WHATSAPP <span style="color: red;"> *</span></label>
                                 <input value="<?php if (isset($_POST['fone_maestro'])) echo $_POST['fone_maestro']; ?>" name="fone_maestro" placeholder="(00) 00000-0000" type="text" class="form-control" id="telefone">
                             </div>
                             <div class="col-md-6">
-                                <label for="email" class="form-label">E-maill <span style="color: red;"> *</span></label>
+                                <label for="email" class="form-label">E-MAIL <span style="color: red;"> *</span></label>
                                 <input value="<?php if (isset($_POST['email_maestro'])) echo $_POST['email_maestro']; ?>" name="email_maestro" placeholder="exemplo@gmail.com" type="text" class="form-control" id="email">
                             </div>
                         </div>
@@ -98,11 +116,11 @@ if (isset($_POST['confirmar'])) {
                                 <input value="<?php if (isset($_POST['coordenador'])) echo $_POST['coordenador']; ?>" placeholder="ex: João" name="coordenador" type="text" class="form-control" id="coordenador">
                             </div>
                             <div class="col-md-2">
-                                <label for="telefone_cord" class="form-label">FONE/WhatsApp <span style="color: red;"> *</span></label>
+                                <label for="telefone_cord" class="form-label">FONE/WHATSAPP <span style="color: red;"> *</span></label>
                                 <input value="<?php if (isset($_POST['fone_coord'])) echo $_POST['fone_coord']; ?>" name="fone_coord" placeholder="(00) 00000-0000" type="text" class="form-control" id="telefone_cord">
                             </div>
                             <div class="col-md-6">
-                                <label for="email_cord" class="form-label">E-maill <span style="color: red;"> *</span></label>
+                                <label for="email_cord" class="form-label">E-MAIL <span style="color: red;"> *</span></label>
                                 <input value="<?php if (isset($_POST['email_coord'])) echo $_POST['email_coord']; ?>" name="email_coord" placeholder="exemplo@gmail.com" type="text" class="form-control" id="email_cord">
                             </div>
 
@@ -110,12 +128,12 @@ if (isset($_POST['confirmar'])) {
                         <div class="historicos row mt-2 ">
                             <div class="col-md-6">
                                 <label for="coro_text" class="form-label">HISTÓRICO DO CORO <span style="color: red;"> *</span></label>
-                                <textarea name="coro_txt" class="form-control" id="coro_text" rows="3"></textarea>
+                                <textarea name="coro_txt" class="form-control" id="coro_text" rows="3"> <?php if (isset($_POST['coro_txt'])) echo $_POST['coro_txt']; ?></textarea>
                             </div>
 
                             <div class="col-lg-6 mb-2">
                                 <label for="maestro_text" class="form-label">HISTÓRICO DO MAESTRO (A) <span style="color: red;"> *</span></label>
-                                <textarea name="maestro_txt" class="form-control" id="maestro_text" rows="3"></textarea>
+                                <textarea name="maestro_txt" class="form-control" id="maestro_text" rows="3"><?php if (isset($_POST['maestro_txt'])) echo $_POST['maestro_txt']; ?></textarea>
                             </div>
                         </div>
 
