@@ -53,7 +53,7 @@ validacoes();
 
                         <div class="primarios row">
                             <div class="cabeca mt-4 mb-5">
-                                <h2>FICHA DE INSCRIÇÂO 21° FEPAC 2023</h2>
+                                <h2>FICHA DE INSCRIÇÂO <?php echo date('Y')?></h2>
                             </div>
 
                             <div class="col-md-6">
@@ -156,13 +156,13 @@ validacoes();
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body" style="color: red;">
-                                        OBS: 01- Para finalizar encaminhar foto e link do coro para o e-mail festivalparaibanodecoros@outlook.com
+                                        OBS: 01- Enviar para o WhatsApp: 83993827772, Fotos e links após a confirmação da participação no evento.
                                     </div>
                                     <div class="modal-body" style="color: red;">
                                         OBS: 02- As quatros peças que serão executadas durante apresentação oficial do coro só devem ser encaminhadas após a confirmação de participação do coro de acordo com o regulamento.
                                     </div>
                                     <div class="modal-body" style="color: red;">
-                                        OBS: 03- Todas as informações necessárias estão contidas no Regulamento no 21º Fepac 2023 à disposição neste site. Outras informações através do WhatsApp 83-99382-7772
+                                        OBS: 03- Todas as informações necessárias estão contidas no Regulamento no 21º Fepac <?php echo date('Y')?> à disposição neste site. Outras informações através do WhatsApp 83-99382-7772
                                     </div>
                                     <div class="modal-footer">
                                         <input name="confirmar" type="submit" class="btn btn-primary">

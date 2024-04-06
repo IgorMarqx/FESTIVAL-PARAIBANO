@@ -50,6 +50,6 @@
     </div>
 
     <div class="obrigado">
-        <h1>Formulário enviado com sucesso! Confira seu e-mail</h1>
+        <h1>Formulário Realizado com sucesso!</h1>
         <a class="btn btn-success" href="index.php">Cadastrar Novamente</a>
     </div>

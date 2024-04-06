@@ -65,7 +65,9 @@
                 $_SESSION['msg'] = "Preencha o campo Historico do maestro";
             } else {
                 $db->query("INSERT INTO inscricao (coro, orgao_pertence, endereco_coro, cidade, estado, pais, maestro, telefone, email, coordenador, telefone_coordenador, email_coordenador, historico_coro, historico_maestro) VALUES ('$coro', '$orgao_pertence', '$endereco_coro', '$cidade', '$estado', '$pais', '$maestro', '$fone_maestro', '$email_maestro', '$coordenador', '$fone_coord', '$email_coord', '$coro_txt', '$maestro_txt')") or die($db->error);
-                header('Location: cadastrado.php');
+                echo '<script>';
+                echo 'window.location.href = "cadastrado.php";';
+                echo '</script>';
 
               
             }
