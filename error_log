@@ -1,0 +1,116 @@
+[01-Apr-2024 20:13:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/festivalpara/public_html/sistema/conexao.php:8
+Stack trace:
+#0 /home/festivalpara/public_html/sistema/conexao.php(8): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'festivalpb')
+#1 /home/festivalpara/public_html/sistema/index.php(4): include('/home/festivalp...')
+#2 {main}
+  thrown in /home/festivalpara/public_html/sistema/conexao.php on line 8
+[01-Apr-2024 20:20:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'festivalpara_igor'@'localhost' to database 'festivalpara_festival' in /home/festivalpara/public_html/sistema/conexao.php:8
+Stack trace:
+#0 /home/festivalpara/public_html/sistema/conexao.php(8): mysqli->__construct('localhost', 'festivalpara_ig...', Object(SensitiveParameterValue), 'festivalpara_fe...')
+#1 /home/festivalpara/public_html/sistema/index.php(4): include('/home/festivalp...')
+#2 {main}
+  thrown in /home/festivalpara/public_html/sistema/conexao.php on line 8
+[01-Apr-2024 20:20:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'festivalpara_igor'@'localhost' to database 'festivalpara_festival' in /home/festivalpara/public_html/sistema/conexao.php:8
+Stack trace:
+#0 /home/festivalpara/public_html/sistema/conexao.php(8): mysqli->__construct('localhost', 'festivalpara_ig...', Object(SensitiveParameterValue), 'festivalpara_fe...')
+#1 /home/festivalpara/public_html/sistema/index.php(4): include('/home/festivalp...')
+#2 {main}
+  thrown in /home/festivalpara/public_html/sistema/conexao.php on line 8
+[01-Apr-2024 20:20:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'festivalpara_igor'@'localhost' to database 'festivalpara_festival' in /home/festivalpara/public_html/sistema/conexao.php:8
+Stack trace:
+#0 /home/festivalpara/public_html/sistema/conexao.php(8): mysqli->__construct('localhost', 'festivalpara_ig...', Object(SensitiveParameterValue), 'festivalpara_fe...')
+#1 /home/festivalpara/public_html/sistema/index.php(4): include('/home/festivalp...')
+#2 {main}
+  thrown in /home/festivalpara/public_html/sistema/conexao.php on line 8
+[01-Apr-2024 20:21:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'festivalpara_igor'@'localhost' to database 'festivalpara_festival' in /home/festivalpara/public_html/sistema/conexao.php:8
+Stack trace:
+#0 /home/festivalpara/public_html/sistema/conexao.php(8): mysqli->__construct('localhost', 'festivalpara_ig...', Object(SensitiveParameterValue), 'festivalpara_fe...')
+#1 /home/festivalpara/public_html/sistema/index.php(4): include('/home/festivalp...')
+#2 {main}
+  thrown in /home/festivalpara/public_html/sistema/conexao.php on line 8
+[01-Apr-2024 20:21:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'festivalpara_igor'@'localhost' to database 'festivalpara_festival' in /home/festivalpara/public_html/sistema/conexao.php:8
+Stack trace:
+#0 /home/festivalpara/public_html/sistema/conexao.php(8): mysqli->__construct('localhost', 'festivalpara_ig...', Object(SensitiveParameterValue), 'festivalpara_fe...')
+#1 /home/festivalpara/public_html/sistema/index.php(4): include('/home/festivalp...')
+#2 {main}
+  thrown in /home/festivalpara/public_html/sistema/conexao.php on line 8
+[01-Apr-2024 20:21:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'festivalpara_igor'@'localhost' to database 'festivalpara_festival' in /home/festivalpara/public_html/sistema/conexao.php:8
+Stack trace:
+#0 /home/festivalpara/public_html/sistema/conexao.php(8): mysqli->__construct('localhost', 'festivalpara_ig...', Object(SensitiveParameterValue), 'festivalpara_fe...')
+#1 /home/festivalpara/public_html/sistema/index.php(4): include('/home/festivalp...')
+#2 {main}
+  thrown in /home/festivalpara/public_html/sistema/conexao.php on line 8
+[01-Apr-2024 20:22:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'festivalpara_igor'@'localhost' to database 'festivalpara_festival' in /home/festivalpara/public_html/sistema/conexao.php:8
+Stack trace:
+#0 /home/festivalpara/public_html/sistema/conexao.php(8): mysqli->__construct('localhost', 'festivalpara_ig...', Object(SensitiveParameterValue), 'festivalpara_fe...')
+#1 /home/festivalpara/public_html/sistema/index.php(4): include('/home/festivalp...')
+#2 {main}
+  thrown in /home/festivalpara/public_html/sistema/conexao.php on line 8
+[01-Apr-2024 20:25:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'telefone' in 'field list' in /home/festivalpara/public_html/fichainscricao/funcoes.php:67
+Stack trace:
+#0 /home/festivalpara/public_html/fichainscricao/funcoes.php(67): mysqli->query('INSERT INTO ins...')
+#1 /home/festivalpara/public_html/fichainscricao/index.php(8): validacoes()
+#2 {main}
+  thrown in /home/festivalpara/public_html/fichainscricao/funcoes.php on line 67
+[01-Apr-2024 20:25:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'telefone' in 'field list' in /home/festivalpara/public_html/fichainscricao/funcoes.php:67
+Stack trace:
+#0 /home/festivalpara/public_html/fichainscricao/funcoes.php(67): mysqli->query('INSERT INTO ins...')
+#1 /home/festivalpara/public_html/fichainscricao/index.php(8): validacoes()
+#2 {main}
+  thrown in /home/festivalpara/public_html/fichainscricao/funcoes.php on line 67
+[01-Apr-2024 20:25:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'telefone' in 'field list' in /home/festivalpara/public_html/fichainscricao/funcoes.php:67
+Stack trace:
+#0 /home/festivalpara/public_html/fichainscricao/funcoes.php(67): mysqli->query('INSERT INTO ins...')
+#1 /home/festivalpara/public_html/fichainscricao/index.php(8): validacoes()
+#2 {main}
+  thrown in /home/festivalpara/public_html/fichainscricao/funcoes.php on line 67
+[01-Apr-2024 20:25:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'telefone' in 'field list' in /home/festivalpara/public_html/fichainscricao/funcoes.php:67
+Stack trace:
+#0 /home/festivalpara/public_html/fichainscricao/funcoes.php(67): mysqli->query('INSERT INTO ins...')
+#1 /home/festivalpara/public_html/fichainscricao/index.php(8): validacoes()
+#2 {main}
+  thrown in /home/festivalpara/public_html/fichainscricao/funcoes.php on line 67
+[01-Apr-2024 20:25:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'telefone' in 'field list' in /home/festivalpara/public_html/fichainscricao/funcoes.php:67
+Stack trace:
+#0 /home/festivalpara/public_html/fichainscricao/funcoes.php(67): mysqli->query('INSERT INTO ins...')
+#1 /home/festivalpara/public_html/fichainscricao/index.php(8): validacoes()
+#2 {main}
+  thrown in /home/festivalpara/public_html/fichainscricao/funcoes.php on line 67
+[01-Apr-2024 20:25:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'telefone' in 'field list' in /home/festivalpara/public_html/fichainscricao/funcoes.php:67
+Stack trace:
+#0 /home/festivalpara/public_html/fichainscricao/funcoes.php(67): mysqli->query('INSERT INTO ins...')
+#1 /home/festivalpara/public_html/fichainscricao/index.php(8): validacoes()
+#2 {main}
+  thrown in /home/festivalpara/public_html/fichainscricao/funcoes.php on line 67
+[01-Apr-2024 20:25:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'telefone' in 'field list' in /home/festivalpara/public_html/fichainscricao/funcoes.php:67
+Stack trace:
+#0 /home/festivalpara/public_html/fichainscricao/funcoes.php(67): mysqli->query('INSERT INTO ins...')
+#1 /home/festivalpara/public_html/fichainscricao/index.php(8): validacoes()
+#2 {main}
+  thrown in /home/festivalpara/public_html/fichainscricao/funcoes.php on line 67
+[01-Apr-2024 20:26:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'telefone' in 'field list' in /home/festivalpara/public_html/fichainscricao/funcoes.php:67
+Stack trace:
+#0 /home/festivalpara/public_html/fichainscricao/funcoes.php(67): mysqli->query('INSERT INTO ins...')
+#1 /home/festivalpara/public_html/fichainscricao/index.php(8): validacoes()
+#2 {main}
+  thrown in /home/festivalpara/public_html/fichainscricao/funcoes.php on line 67
+[01-Apr-2024 20:30:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'telefone' in 'field list' in /home/festivalpara/public_html/fichainscricao/funcoes.php:67
+Stack trace:
+#0 /home/festivalpara/public_html/fichainscricao/funcoes.php(67): mysqli->query('INSERT INTO ins...')
+#1 /home/festivalpara/public_html/fichainscricao/index.php(8): validacoes()
+#2 {main}
+  thrown in /home/festivalpara/public_html/fichainscricao/funcoes.php on line 67
+[01-Apr-2024 20:31:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'email' in 'field list' in /home/festivalpara/public_html/fichainscricao/funcoes.php:67
+Stack trace:
+#0 /home/festivalpara/public_html/fichainscricao/funcoes.php(67): mysqli->query('INSERT INTO ins...')
+#1 /home/festivalpara/public_html/fichainscricao/index.php(8): validacoes()
+#2 {main}
+  thrown in /home/festivalpara/public_html/fichainscricao/funcoes.php on line 67
+[01-Apr-2024 20:32:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/festivalpara/public_html/fichainscricao/funcoes.php:1) in /home/festivalpara/public_html/fichainscricao/funcoes.php on line 68
+[01-Apr-2024 20:33:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/festivalpara/public_html/fichainscricao/funcoes.php:1) in /home/festivalpara/public_html/fichainscricao/funcoes.php on line 68
+[01-Apr-2024 20:33:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/festivalpara/public_html/fichainscricao/funcoes.php:1) in /home/festivalpara/public_html/fichainscricao/funcoes.php on line 68
+[01-Apr-2024 20:33:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/festivalpara/public_html/fichainscricao/funcoes.php:1) in /home/festivalpara/public_html/fichainscricao/funcoes.php on line 68
+[01-Apr-2024 20:33:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/festivalpara/public_html/fichainscricao/funcoes.php:1) in /home/festivalpara/public_html/fichainscricao/funcoes.php on line 68
+[01-Apr-2024 20:34:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/festivalpara/public_html/fichainscricao/funcoes.php:1) in /home/festivalpara/public_html/fichainscricao/funcoes.php on line 69
+[01-Apr-2024 20:34:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/festivalpara/public_html/fichainscricao/funcoes.php:1) in /home/festivalpara/public_html/fichainscricao/funcoes.php on line 69
+[01-Apr-2024 20:35:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/festivalpara/public_html/fichainscricao/funcoes.php:1) in /home/festivalpara/public_html/fichainscricao/funcoes.php on line 69
